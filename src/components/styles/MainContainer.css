@@ -1,28 +1,26 @@
 .container-main > div {
-    margin-bottom: 0px; /* Adjust as needed */
-  }
-  
-  #smooth-wrapper {
-    overflow: hidden;
-    position: relative;
-  }
-  
-  #smooth-content {
-    min-height: 100vh; /* Ensure content height is calculated correctly */
-    padding-bottom: 0px; /* Add spacing at the bottom */
-  }
-  
-  
-  #work {
-    margin-bottom: 100px; /* Add space after the Work section */
-  }
-  
-  #contact {
-    padding-top: 700px; /* Add space before the Contact section */
-  }
+  margin-bottom: 0px; /* Adjust as needed */
+}
 
-  #work, #contact {
-    position: relative;
-    z-index: 1; /* Ensure both are at the same stacking context */
-  }
-  
+#smooth-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+#smooth-content {
+  min-height: 100vh; /* Ensure content height is calculated correctly */
+  padding-bottom: 0px; /* Add spacing at the bottom */
+}
+
+#work-section {
+  margin-bottom: 30px; /* Add space after the Work section */
+}
+
+#contact-section {
+  padding-top: 20px; /* Add space before the Contact section */
+}
+
+#work-section, #contact-section {
+  position: relative;
+  z-index: 1; /* Ensure both are at the same stacking context */
+}

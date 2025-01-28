@@ -42,8 +42,12 @@ const MainContainer = ({ children }: PropsWithChildren) => {
             <About />
             <WhatIDo />
             {/* <Career /> */}
-            <Work id="work" />
-            <Contact id="contact" />
+            <div className="section-wrapper" id="work-section">
+              <Work  />
+            </div>
+            <div className="section-wrapper" id="contact-section">
+              <Contact  />
+            </div>
           </div>
         </div>
       </div>
