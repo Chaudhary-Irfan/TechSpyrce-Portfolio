@@ -1,0 +1,28 @@
+.container-main > div {
+    margin-bottom: 0px; /* Adjust as needed */
+  }
+  
+  #smooth-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #smooth-content {
+    min-height: 100vh; /* Ensure content height is calculated correctly */
+    padding-bottom: 0px; /* Add spacing at the bottom */
+  }
+  
+  
+  #work {
+    margin-bottom: 100px; /* Add space after the Work section */
+  }
+  
+  #contact {
+    padding-top: 700px; /* Add space before the Contact section */
+  }
+
+  #work, #contact {
+    position: relative;
+    z-index: 1; /* Ensure both are at the same stacking context */
+  }
+  
